@@ -1,0 +1,81 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /\top#DUT 
+=== Design Unit: work.shift_reg
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         6         6         0   100.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /\top#DUT 
+NOTE: The modification timestamp for source file 'shift_reg.v' has been altered since compilation.
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File shift_reg.v
+------------------------------------IF Branch------------------------------------
+    14                                     10173     Count coming in to IF
+    14              1                        346     
+    17              1                       4958     
+    23              1                       2505     
+    25              1                       2364     
+Branch totals: 4 hits of 4 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    18                                      4958     Count coming in to IF
+    18              1                       2469     
+    20              1                       2489     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       6         6         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /\top#DUT  --
+NOTE: The modification timestamp for source file 'shift_reg.v' has been altered since compilation.
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File shift_reg.v
+    13              1                      10173     
+    15              1                        346     
+    19              1                       2469     
+    21              1                       2489     
+    24              1                       2505     
+    26              1                       2364     
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                         34        34         0   100.00%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /\top#DUT  --
+
+                                              Node      1H->0L      0L->1H  "Coverage"
+                                              ---------------------------------------
+                                               clk           1           1      100.00 
+                                       datain[0-5]           1           1      100.00 
+                                      dataout[5-0]           1           1      100.00 
+                                         direction           1           1      100.00 
+                                              mode           1           1      100.00 
+                                             reset           1           1      100.00 
+                                         serial_in           1           1      100.00 
+
+Total Node Count     =         17 
+Toggled Node Count   =         17 
+Untoggled Node Count =          0 
+
+Toggle Coverage      =     100.00% (34 of 34 bins)
+
+
+Total Coverage By Instance (filtered view): 100.00%
+

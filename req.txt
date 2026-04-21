@@ -1,0 +1,34 @@
+
+#################################*  UVM Files Rep *################################### 
+
+
+✅ interface 
+
+✅ shared pkg 
+
+✅ config_obg 
+
+✅sequence (item ,          
+            reset ,       
+            main    ) ; #* Color_tab = green 🟢 ;
+
+
+top_module   
+
+
+UVM_test                #* Color_tab = red    🔴  ; 
+
+UVM_env                 #* Color_tab =  black ⚫  ;
+
+UVM_coverage collector  #* Color_tab = brown  🟤  ;
+
+UVM_scoreboard          #* Color_tab = orange 🟠  ;
+
+✅ UVM_agent           #* Color_tab = blue   🔵  ;
+
+✅ UVM_driver          #* Color_tab = white   ⚪  ; 
+
+✅ UVM_mointor         #* Color_tab = yellow  🟡  ;
+
+✅ UVM_sequencer       #* Color_tab = green   🟢  ;
+
