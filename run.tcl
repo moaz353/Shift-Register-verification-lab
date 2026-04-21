@@ -11,7 +11,7 @@ coverage save top.ucdb -onexit  -du shift_reg
 run -all
 
 # functional coverage 
-coverage report -detail -cvg -directive -comments -output "./Reports/func_coverage_counter.rpt"
+coverage report -detail -cvg -directive -comments -output "./Reports/func_coverage_shift_reg.rpt"
 
 # code coverage 
 vcover report top.ucdb -details -all -output  "./Reports/coverage_shift_reg.rpt"
